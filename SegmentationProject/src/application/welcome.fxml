@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.WelcomeController">
+   <children>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS" />
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+                  <BorderPane maxHeight="480.0" maxWidth="900.0" minHeight="480.0" minWidth="900.0" prefHeight="480.0" prefWidth="900.0" style="-fx-background-color: white;">
+                     <center>
+                        <AnchorPane prefHeight="480.0" prefWidth="495.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+                           <children>
+                              <Text fx:id="welcome_msg" fill="#1877f2" layoutX="14.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medical Image Segmentation" wrappingWidth="320.13665771484375">
+                                 <font>
+                                    <Font name="Segoe UI Black" size="40.0" />
+                                 </font>
+                              </Text>
+                              <Button fx:id="upload_image" layoutX="15.0" layoutY="413.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="391.0" style="-fx-background-radius: 5;" text="Upload an image" textFill="WHITE">
+                                 <font>
+                                    <Font name="Segoe UI Bold" size="18.0" />
+                                 </font>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                                 <graphic>
+                                    <ImageView fitHeight="55.0" fitWidth="24.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../3x/3x/Vector-2.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                              <Text fill="#00aeef" layoutX="14.0" layoutY="145.0" strokeType="OUTSIDE" strokeWidth="0.0" text="About Medical Image Segmentation application:" textAlignment="JUSTIFY" wrappingWidth="392.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Black" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#1877f2" layoutX="14.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Medical image segmentation is an application that helps doctors to detect tumors." textAlignment="JUSTIFY" wrappingWidth="386.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#00aeef" layoutX="13.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="How to use the application?" textAlignment="JUSTIFY" wrappingWidth="392.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Black" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#1877f2" layoutX="14.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="After logging in, please follow these steps:" textAlignment="JUSTIFY" wrappingWidth="392.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#1877f2" layoutX="15.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="       Sometimes, the automatic segmentation doesn't give optimal result. To solve this problem, this application offers you the possibility to segment your images manually." textAlignment="JUSTIFY" wrappingWidth="390.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#00aeef" layoutX="13.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Note:" textAlignment="JUSTIFY" wrappingWidth="48.803550720214844">
+                                 <font>
+                                    <Font name="Segoe UI Black" size="16.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#1877f2" layoutX="13.0" layoutY="254.0" strokeType="OUTSIDE" strokeWidth="0.0" text="1 -&gt; Upload the medical image you want to segment" textAlignment="JUSTIFY" wrappingWidth="392.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#1877f2" layoutX="13.0" layoutY="272.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2 -&gt; Grayscale the selected image" textAlignment="JUSTIFY" wrappingWidth="392.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#1877f2" layoutX="14.0" layoutY="291.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3 -&gt; Segment the selected image" textAlignment="JUSTIFY" wrappingWidth="392.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="15.0" />
+                                 </font>
+                              </Text>
+                              <Text fill="#1877f2" layoutX="13.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="4 -&gt; Save the image in your computer" textAlignment="JUSTIFY" wrappingWidth="392.80352783203125">
+                                 <font>
+                                    <Font name="Segoe UI Semibold" size="15.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </center>
+                     <right>
+                        <AnchorPane prefHeight="480.0" prefWidth="428.0" style="-fx-background-color: white; -fx-background-radius: 0;" BorderPane.alignment="CENTER">
+                           <children>
+                              <ImageView fitHeight="367.0" fitWidth="366.0" layoutX="31.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../3x/3x/circle.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fitHeight="338.0" fitWidth="358.0" layoutX="45.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../3x/3x/3d-medical-showing-brain-with-tumor-growing%201.png" />
+                                 </image>
+                              </ImageView>
+                              <Button fx:id="logout_button" layoutX="371.0" layoutY="8.0" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                                 <graphic>
+                                    <ImageView fitHeight="34.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../3x/3x/png.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </right>
+                     <left>
+                        <ImageView fitHeight="487.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../3x/3x/Asset%203med.png" />
+                           </image>
+                        </ImageView>
+                     </left>
+                  </BorderPane>
+                  <VBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>

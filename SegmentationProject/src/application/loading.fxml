@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="240.0" prefWidth="450.0" style="-fx-background-color: #1877F2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controllers">
+   <children>
+      <ImageView fitHeight="240.0" fitWidth="490.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../3x/3x/Frame%204.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="238.0" layoutX="106.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../3x/3x/logo.png" />
+         </image></ImageView>
+   </children>
+</AnchorPane>

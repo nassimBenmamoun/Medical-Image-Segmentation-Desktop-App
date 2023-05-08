@@ -1,0 +1,97 @@
+.slider .track{
+	-fx-background-color: white;
+	
+}
+.slider .thumb{
+	-fx-pref-height: 20px;
+	-fx-pref-width: 20px;
+	-fx-background-color: #1877f0;
+	-fx-border-color: white;
+	-fx-background-radius: 10px;
+	-fx-border-radius: 10px;
+	}
+.slider .thumb:hover{
+	-fx-pref-height: 19px;
+	-fx-pref-width: 19px;
+	-fx-background-color: #1558A0;
+	-fx-border-color: white;
+	-fx-background-radius: 10px;
+	-fx-border-radius: 10px;
+}
+
+#login_button{
+	-fx-background-color:  #1877f2;
+}
+
+#login_button:hover{
+	-fx-background-color: #1558A0;
+    -fx-translate-y: -1px;
+}
+
+#fleche:hover{
+    -fx-rotate: 45;
+}
+
+#fleche2:hover{
+    -fx-rotate: -45;
+}
+
+#signup_button{
+	-fx-background-color:  #1877f2;
+}
+
+#signup_button:hover{
+	-fx-background-color: #1558A0;
+    -fx-translate-y: -1px;
+}
+
+#upload_image{
+	-fx-background-color:  #1877f2;
+}
+
+#upload_image:hover{
+	-fx-background-color: #1558A0;
+    -fx-translate-y: -1px;
+}
+
+#logout_button:hover{
+    -fx-rotate: 45;
+}
+#grayscale_Button:hover{
+	-fx-translate-y: 1px;
+	-fx-pref-width: 246;
+}
+#Segmentation_Button:hover{
+	-fx-translate-y: 1px;
+	-fx-pref-width: 246;
+}
+#save_image_Button:hover{
+	-fx-translate-y: 1px;
+	-fx-pref-width: 246;
+}
+#gray_Button:hover{
+	-fx-translate-y: 1px;
+	-fx-pref-width: 246;
+}
+
+#save_Button:hover{
+	-fx-translate-y: 1px;
+	-fx-pref-width: 246;
+}
+#chooseOtherImage:hover{
+	-fx-translate-x: -1px;
+}
+#go_to_manuel_seg_Button:hover,#goToAutoSeg:hover{
+	-fx-translate-x: 1px;
+}
+#go_to_welcome_Button:hover,#go_to_login_Button:hover,#quit_Button:hover{
+	-fx-translate-y: -1px;
+	-fx-opacity: 95%;
+}
+#user_textField:hover,#pass_textField:hover,
+#username_textField:hover,#password_textField:hover{
+	-fx-translate-y: 1px;
+}
+#go_to_signup_Hyperlink:hover,#go_to_login_Hyperlink:hover{
+	-fx-text-fill: #029dd0;
+}

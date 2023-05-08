@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox alignment="CENTER" style="-fx-background-color: #1877F2;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS" />
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+         <children>
+            <HBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+            <HBox alignment="CENTER" HBox.hgrow="ALWAYS">
+               <children>
+                  <VBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+                  <AnchorPane maxHeight="480.0" maxWidth="900.0" minHeight="480.0" minWidth="900.0" prefHeight="480.0" prefWidth="900.0" style="-fx-background-color: #1877F2;">
+                     <children>
+                        <ImageView fitHeight="493.0" fitWidth="908.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../3x/3x/Asset%201backkk.png" />
+                           </image>
+                        </ImageView>
+                        <GridPane layoutX="272.0" layoutY="162.0" prefHeight="194.0" prefWidth="368.0" style="-fx-alignment: center;">
+                           <columnConstraints>
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="20.0" prefWidth="130.0" />
+                              <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="20.0" prefWidth="130.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                           <children>
+                              <Pane maxHeight="170.0" maxWidth="162.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1558A0; -fx-background-radius: 10px;">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="-1.0" layoutY="-50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chentoui" textAlignment="CENTER" wrappingWidth="122.13671684265137" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Black" size="22.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="-1.0" layoutY="-27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Abdelali" textAlignment="CENTER" wrappingWidth="122.13671684265137" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Black" size="22.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="-12.0" layoutY="-3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GI2-Ensah" textAlignment="CENTER" wrappingWidth="145.47002983093262" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Black" size="22.0" />
+                                       </font>
+                                    </Text>
+                                    <ImageView fitHeight="63.0" fitWidth="55.0" layoutX="53.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../3x/3x/ab.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="-15.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="chentouiabdelali@gmail.com" textAlignment="CENTER" wrappingWidth="152.13665580749512" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Light" size="10.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                              <Pane maxHeight="170.0" maxWidth="162.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #1558A0; -fx-background-radius: 10px;" GridPane.columnIndex="1">
+                                 <children>
+                                    <Text fill="WHITE" layoutX="-10.0" layoutY="-51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Benmamoun" textAlignment="CENTER" wrappingWidth="145.47002983093262" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Black" size="22.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="-1.0" layoutY="-27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nassim" textAlignment="CENTER" wrappingWidth="122.13671684265137" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Black" size="22.0" />
+                                       </font>
+                                    </Text>
+                                    <Text fill="WHITE" layoutX="-12.0" layoutY="-3.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GI2-Ensah" textAlignment="CENTER" wrappingWidth="145.47002983093262" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Black" size="22.0" />
+                                       </font>
+                                    </Text>
+                                    <ImageView fitHeight="63.0" fitWidth="55.0" layoutX="53.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../3x/3x/nass.png" />
+                                       </image>
+                                    </ImageView>
+                                    <Text fill="WHITE" layoutX="-14.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="benmamounnassim20@gmail.com" textAlignment="CENTER" wrappingWidth="152.13665580749512" x="20.0" y="140.0">
+                                       <font>
+                                          <Font name="Segoe UI Light" size="10.0" />
+                                       </font>
+                                    </Text>
+                                 </children>
+                              </Pane>
+                           </children>
+                        </GridPane>
+                        <Text fill="WHITE" layoutX="257.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Created with     by" textAlignment="CENTER" wrappingWidth="386.66668701171875">
+                           <font>
+                              <Font name="Segoe UI Black" size="31.0" />
+                           </font>
+                        </Text>
+                        <ImageView fitHeight="26.0" fitWidth="28.0" layoutX="515.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../../3x/3x/lv.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <VBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" HBox.hgrow="ALWAYS" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS" />
+   </children>
+</VBox>
