@@ -26,5 +26,16 @@ Ce projet est une application Java qui représente une utilisation réelle de la
 - Si l'application ne fonctionne pas correctement, assurez-vous d'avoir installé toutes les bibliothèques et dépendances requises.
 - Si vous rencontrez des erreurs lors de la compilation, assurez-vous d'utiliser une version compatible de Java.
 
+## Aperçu de l'application
+![Screenshot 0](https://github.com/nassimBenmamoun/Medical-Image-Segmentation-Desktop-App/blob/main/ScreenShots/1.jpg)
+
+![Screenshot 1](https://github.com/nassimBenmamoun/Medical-Image-Segmentation-Desktop-App/blob/main/ScreenShots/2.jpg)
+
+![Screenshot 2](https://github.com/nassimBenmamoun/Medical-Image-Segmentation-Desktop-App/blob/main/ScreenShots/3.jpg)
+
+![Screenshot 3](https://github.com/nassimBenmamoun/Medical-Image-Segmentation-Desktop-App/blob/main/ScreenShots/4.jpg)
+
+![Screenshot 4](https://github.com/nassimBenmamoun/Medical-Image-Segmentation-Desktop-App/blob/main/ScreenShots/5.jpg)
+
 ## Contributeur
 - [Chentoui Abdelali](https://github.com/AbdelaliChe)
